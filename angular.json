@@ -73,6 +73,12 @@
       "projectType": "library",
       "root": "projects/ui",
       "sourceRoot": "projects/ui",
+      "schematics": {
+        "@schematics/angular:component": {
+          "type": "component",
+          "path": "projects/ui/components"
+        }
+      },
       "prefix": "ui",
       "architect": {
         "build": {
