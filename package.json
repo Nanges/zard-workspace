@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "zard-cli":"zard-cli"
   },
   "prettier": {
     "printWidth": 100,
@@ -49,6 +50,7 @@
     "tailwindcss": "^4.1.12",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "~5.9.2",
-    "vitest": "^4.0.8"
+    "vitest": "^4.0.8",
+    "zard-cli": "^1.0.0-beta.70"
   }
 }

@@ -26,6 +26,14 @@ For a complete list of available schematics (such as `components`, `directives`,
 ng generate --help
 ```
 
+### Generate primitives (@/ui/primitives)
+
+[zard-cli](https://zardui.com/docs/cli)
+
+```bash
+npx zard-cli@latest add {zard component}
+```
+
 ## Building
 
 To build the project run:
