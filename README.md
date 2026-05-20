@@ -31,8 +31,31 @@ ng generate --help
 [zard-cli](https://zardui.com/docs/cli)
 
 ```bash
-npx zard-cli@latest add {zard component}
+npm run zard-cli -- add {component_name}
 ```
+
+Add ng-package.json in the component folder that point to `index.ts`
+
+```json
+{
+    "lib":{
+        "entryFile":"index.ts"
+    }
+}
+```
+
+Fix dependencies
+
+```ts
+import { mergeClasses } from '@/ui/primitives/utils/mergeClasses';
+```
+
+to
+
+```ts
+import { mergeClasses } from '@/ui/primitives/utils';
+```
+
 
 ## Building
 
