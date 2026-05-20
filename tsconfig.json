@@ -15,8 +15,10 @@
     "target": "ES2022",
     "module": "preserve",
     "paths": {
-      "@/ui/*": ["./dist/ui/*"]
-    }
+      "@/ui/*": [
+        "./dist/ui/*"
+      ]
+    },
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
