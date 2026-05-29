@@ -44,7 +44,7 @@ Add ng-package.json in the component folder that point to `index.ts`
 }
 ```
 
-Fix dependencies
+Some dependencies need to be fixed. They should matches to the entry points of the `ui` package
 
 ```ts
 import { mergeClasses } from '@/ui/primitives/utils/mergeClasses';
